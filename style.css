@@ -1,0 +1,147 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #9252a3;
+}
+
+/* ---------- COULEURS PERSONNALISÉES ---------- */
+.bg-purple {
+  background-color: #9252a3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.nav-link.active {
+  background-color: #fff;
+  color: #905BA3 !important;
+  border-radius: 10px;
+  padding: 5px 5px;
+  font-weight: 600;
+}
+.custom-navbar {
+  height: 160px;
+}
+
+body {
+  padding-top: 160px;
+}
+
+
+
+/* NAVBAR */
+.navbar-nav .nav-link {
+  color: #F9CBDF;
+  font-weight: 500;
+  margin: 0 30px;
+  font-size: 20px;
+}
+
+.navbar-nav .nav-link.active {
+  border: 1px solid #F9CBDF;
+  border-radius: 10px;
+  padding: 5px 15px;
+  color: #F9CBDF !important;
+}
+
+.btn-outline-light {
+  border-radius: 10px;
+}
+
+/* HERO */
+
+.container1 {
+  max-width: 100%;
+  background-color: #f9c7e2;
+  padding: 80px 30px;
+  font-size: 32px;
+  
+}
+
+.hero-section h2 {
+  font-size: 48px;
+  color: #905BA3;
+  margin-top: -100px;
+}
+
+.line-deco {
+  width: 50px;
+  height: 5px;
+  background-color: #905BA3;
+}
+
+/* À PROPOS */
+.about-section {
+  background-color: #905BA3;
+  padding: 80px 0;
+  border-radius: 9px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #f9c7e2;
+}
+
+.section-subtitle {
+  font-size: 28px;
+  font-weight: 500;
+  color: #f9c7e2;
+}
+
+.about-text {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 1.5;
+  color: white;
+}
+
+.grid-values {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem 3rem;
+}
+
+.valeur {
+  font-size: 28px;
+  font-weight: normal;
+  color: #f9c7e2;
+}
+
+/* PROJETS */
+.projets {
+  background-color: #F9CBDF;
+  padding: 80px 0;
+  border-radius: 9px;
+}
+
+.projets h1 {
+  color: #905BA3;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+}
+
+.card-img-top.projet-img {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-body {
+  background-color: white;
+  flex: 1 1 auto;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #f9c7e2;
+  border-radius: 8px;
+  color: #905BA3;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 90px;
+}
